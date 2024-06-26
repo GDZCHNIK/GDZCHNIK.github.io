@@ -77,7 +77,7 @@
             "5.4 - Використання режиму будування в цілях допомоги ПВП-гравцям заборонена (наприклад: показувати ПВП-гравцям, де знаходиться їхній ворог)"
         ];
 
-        setInterval(setBackground, 30000/3);
+        setInterval(setBackground, 3000);
         function setBackground() {
             var selected_screenshot = screenshots[Math.floor(Math.random() * screenshots.length)];
             document.getElementById("screenbg").src = selected_screenshot;
